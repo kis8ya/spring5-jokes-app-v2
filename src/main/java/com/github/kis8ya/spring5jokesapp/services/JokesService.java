@@ -9,10 +9,6 @@ public class JokesService {
 
     private final ChuckNorrisQuotes quotesProvider;
 
-    public JokesService() {
-        this.quotesProvider = new ChuckNorrisQuotes();
-    }
-
     public JokesService(ChuckNorrisQuotes quotesProvider) {
         this.quotesProvider = quotesProvider;
     }
